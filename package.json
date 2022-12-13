@@ -1,0 +1,29 @@
+{
+  "name": "socket_server",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodemon",
+    "test": "ts-node node_modules/jasmine/bin/jasmine --config=jasmine.json"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.16",
+    "reflect-metadata": "^0.1.13",
+    "socket-controllers": "^0.0.5",
+    "socket.io": "^4.5.1",
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^4.0.3",
+    "jasmine": "^4.2.1",
+    "jasmine-spec-reporter": "^7.0.0",
+    "jasmine-ts": "^0.4.0",
+    "ts-node": "^10.8.2"
+  }
+}
